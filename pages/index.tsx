@@ -31,7 +31,7 @@ const Home: NextPage = () => {
         <div style={themeStyle}>
           <Head>
             {/* change your meta information here */}
-            <title>Steve Vang Dev</title>
+            <title>Javiera Espina Dev</title>
             <meta
               name='description'
               content='Personal Portfolio Website by Steve Vang'
@@ -48,11 +48,11 @@ const Home: NextPage = () => {
           <main>
             <Intro />
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
             <Contact />
           </main>
 
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </NavLocationContext.Provider>
     </ThemeContext.Provider>

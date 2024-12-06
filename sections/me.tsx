@@ -9,6 +9,9 @@ import {
 import {
   faReact,
   faHtml5,
+  faPython,
+  faDocker,
+  faGit,
   faCss3,
   faSass,
   faJs,
@@ -73,17 +76,17 @@ export const links: NavLinkType[] = [
       />
     ),
   },
-  {
-    name: 'projects',
-    path: '#projects',
-    icon: (
-      <FontAwesomeIcon
-        icon={faWindowMaximize}
-        title='scroll to section: projects'
-        size='lg'
-      />
-    ),
-  },
+  // {
+  //   name: 'projects',
+  //   path: '#projects',
+  //   icon: (
+  //     <FontAwesomeIcon
+  //       icon={faWindowMaximize}
+  //       title='scroll to section: projects'
+  //       size='lg'
+  //     />
+  //   ),
+  // },
   {
     name: 'contact',
     path: '#contact',
@@ -103,18 +106,13 @@ export const links: NavLinkType[] = [
 export const socialLinks: SocialLinkType[] = [
   {
     icon: <FontAwesomeIcon icon={faGithub} title='github' size='2x' />,
-    link: 'https://github.com/vanquiche',
+    link: 'https://github.com/javiesp',
     title: 'github',
   },
   {
     icon: <FontAwesomeIcon icon={faLinkedin} title='linkedIn' size='2x' />,
-    link: 'https://linkedin.com/in/stevevang',
+    link: 'https://www.linkedin.com/in/javiera-espina-m/',
     title: 'linkedIn',
-  },
-  {
-    icon: <FontAwesomeIcon icon={faTwitter} title='twitter' size='2x' />,
-    link: 'https://twitter.com/stevevangdev',
-    title: 'twitter',
   },
 ]; //
 // PROJECT CARDS
@@ -321,12 +319,7 @@ export const skillcard_Styles: SkillItemType[] = [
   {
     text: 'React',
     icon: <FontAwesomeIcon icon={faReact} size='2x' />,
-    skillLevel: '100%',
-  },
-  {
-    text: 'Next',
-    icon: <CustomIcon path='/icons/next-js.256x256.png' size={46} />,
-    skillLevel: '100%',
+    skillLevel: '60%',
   },
 ];
 export const skillcard_Languages: SkillItemType[] = [
@@ -341,35 +334,30 @@ export const skillcard_Languages: SkillItemType[] = [
     skillLevel: '100%',
   },
   {
-    text: 'SASS',
-    icon: <FontAwesomeIcon icon={faSass} size='2x' />,
-    skillLevel: '100%',
-  },
-  {
     text: 'Tailwind',
     icon: <CustomIcon path='/icons/tailwind-icon.png' size={45} />,
-    skillLevel: '100%',
+    skillLevel: '60%',
   },
 ];
 export const skillcard_Frameworks: SkillItemType[] = [
   {
-    text: 'Redux',
-    icon: <CustomIcon path='/icons/icons8-redux-150.png' size={39} />,
-    skillLevel: '100%',
-  },
-  {
     text: 'Node',
-    icon: <FontAwesomeIcon icon={faNodeJs} size='2x' />,
+    icon: <FontAwesomeIcon icon={faNodeJs} size='2x' />,  // Keeping the Node icon
     skillLevel: '100%',
   },
   {
-    text: 'Cypress',
-    icon: <CustomIcon path='/icons/cypress-icon.png' size={40} />,
-    skillLevel: '100%',
+    text: 'Python',
+    icon: <FontAwesomeIcon icon={faPython} size='2x' />,  // Replaced with a Python icon
+    skillLevel: '90%',
   },
   {
-    text: 'Jest',
-    icon: <CustomIcon path='/icons/jest-icon.png' size={45} />,
-    skillLevel: '100%',
+    text: 'Docker',
+    icon: <FontAwesomeIcon icon={faDocker} size='2x' />,  // Replaced with Docker icon
+    skillLevel: '80%',
   },
+  {
+    text: 'Git',
+    icon: <FontAwesomeIcon icon={faGit} size='2x' />,  // Replaced with Git icon
+    skillLevel: '100%',
+  },  
 ];

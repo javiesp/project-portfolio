@@ -9,7 +9,7 @@ const Projects = () => {
     // change your title and section id
     <SectionCard id='projects' title='PROJECTS' page='03'>
       <div style={{ position: 'relative' }}>
-        <BgTitle title='WORK' />
+        <BgTitle title='TRABAJO' />
 
         {projectData.map((p, i) => (
           <ProjectCard project={p} key={i} />

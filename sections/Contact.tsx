@@ -14,15 +14,14 @@ const Contact = () => {
     // change your title and section id
     <SectionCard id='contact' title='CONTACT' page='04'>
       <>
-        <BgTitle title='CONTACT' />
+        <BgTitle title='CONTACTO' />
         <p className={styles.articleDescription}>
           {/* change your contact description */}
-          Looking for an awesome <b>Frontend Developer</b>?<br></br> I&apos;m{' '}
-          <b>available</b> and looking to mingle! Hit me up and let&apos;s see
-          if we&apos;re a match. 💕
+          Si buscas a un <b>Desarrollador Fullstack</b>?<br></br> estoy{' '}
+          <b>disponible</b> y buscando nuevos desarollos💕
         </p>
-        <ClipCopy copy='stevevang425@gmail.com' theme={themeStyle} />
-        <p className={styles.socialLinksTitle}>Connect with me 🤖</p>
+        <ClipCopy copy='jaantonia.espinam@gmail.com' theme={themeStyle} />
+        <p className={styles.socialLinksTitle}>Envíame un email🤖</p>
         <section className={styles.socialLinksContainer}>
           {/* add your social information in the projectData.tsx file */}
           {socialLinks.map((s, i) => {

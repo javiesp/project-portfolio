@@ -14,7 +14,7 @@ const Skills = () => {
     // change your title and section id
     <SectionCard id='skills' title='TOOLS' page='02'>
       <>
-        <BgTitle title='TOOLS' />
+        <BgTitle title='HERRAMIENTAS' />
 
         <div className={styles.skillCardWrapper}>
           {/* add your skillcards here with their respective item. itemHeight represents the height of the container, required for proper position  */}

@@ -17,7 +17,7 @@ const Intro = () => {
     // change your title and section id
     <SectionCard id='intro' title='ABOUT' page='01'>
       <>
-        <BgTitle title='ABOUT' />
+        <BgTitle title='SOBRE MI' />
         <div>
           <p>
             {/* add your text here */}
@@ -25,17 +25,16 @@ const Intro = () => {
               className={styles.myName}
               style={{ fontFamily: 'Archivo Black, sans-serif' }}
             >
-              STEVE VANG
+              JAVIERA ESPINA
             </span>
             {/* <br /> */}
-            I&apos;m a<b> Frontend Developer </b>
-            and I build cool things for the web. <b>Javascript</b>, <b>React</b>
-            , and eating <b>cheeseburgers</b> are kinda my thing and I think I
-            do them pretty well.
+            Soy <b> desarrolladora Fullstack </b>
+            me gusta construir aplicaciones web utilizando frameworks como <b>Vuejs</b>, <b>React</b>, <b>SpringBoot</b> y <b>NestJs</b>
+            . Disfruto tanto de la informática que puedo quedarme horas sumergida en el código buscando la mejor solución.
           </p>
-          Did I just pique your interest? Let&apos;s{' '}
+          ¿Te interesa mi trabajo? {' '}
           <a onClick={scrollToContact}>
-            <b style={{ textDecoration: 'underline' }}>chat </b>💬
+            <b style={{ textDecoration: 'underline' }}>Hablemos </b>💬
           </a>{' '}
         </div>
       </>
